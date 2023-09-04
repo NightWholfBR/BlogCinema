@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    background: rgb(22, 22, 22);
+    background:gray;
 }
 header{
     background-color: blue;
@@ -11,16 +11,12 @@ header{
     font-size: 40px;
     justify-content: center;
     align-items: center;
-    color: blue;
+    color: aqua;
     border: 4px solid aqua;
     justify-content: space-around;
 }
-button{
-    align-items: center;
-    width: 190px;
-    height: 70px;
-    color: blue;
-    background-color: aqua;
+h1{
+    background-color: blue;
 }
 body{
     box-sizing: border-box;
@@ -35,17 +31,17 @@ main{
     margin: 0 auto;
 }
 .box {
-    margin-top: 600px;
+    margin-top: 60px;
 	width: 450px;
 	height: 450px;
 	background-color: blue;
     border-radius: 10px;
 	padding: 20px;	
-	color: red;
+	color: aqua;
 	border-style: inherit;
 	margin-bottom: 20px;
     font-size: 25px;
-    border: 4px solid red;
+    border: 4px solid aqua;
 }
 .box h2 {
 	margin: 0 0 10px 0;
@@ -60,6 +56,7 @@ main{
     background-color: blue;
 }
 img {
+    margin-top: 15px;
 	width: 300px;
 	height: 200px; 
 }
@@ -72,7 +69,7 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    color: red;
+    color: aqua;
 }
 .boxT{
     align-items: center;
