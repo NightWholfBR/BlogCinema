@@ -1,1 +1,1 @@
-# BlogCinema
+# AlbumDeFigurinhas

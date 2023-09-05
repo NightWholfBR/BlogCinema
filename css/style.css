@@ -1,0 +1,80 @@
+*{
+    background: rgb(22, 22, 22);
+}
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 4px solid red;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.box {
+	width: 450px;
+	height: 450px;
+	background-color: blue;
+    border-radius: 10px;
+	padding: 20px;	
+	color: red;
+	border-style: inherit;
+	margin-bottom: 20px;
+    font-size: 25px;
+    border: 4px solid red;
+}
+.box h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.box figure {
+	width: 450px;
+	height: 200px;
+	padding-top: 0;
+	text-align: center;
+	margin: auto;
+    background-color: blue;
+}
+img {
+	width: 300px;
+	height: 200px; 
+}
+.box p {
+	text-align: center;	
+    background-color: blue;
+}
+.titulo{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    border: 4px solid red;
+    justify-content: space-around;
+}
+#nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: red;
+}
+.boxT{
+    align-items: center;
+    background-color: blue;
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: red;
+    font-size: 30px;
+    justify-content: center;
+    background-color: blue;
+    border: 4px solid red;
+}
